@@ -6,8 +6,7 @@
 body {
     display: flex;
     background-color: rgb(230, 125, 33);
-    
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -46,52 +45,30 @@ body {
 .nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav ul li a:hover {
     color: purple;
 }
-
-.conteudo1 img {
-    width: 600px;
-    height: 450px;
-    position: relative;;top: 100px;right: 70px;
-}
-.conteudo {
+.conteudo1{
     display: flex;
     justify-content: center;
-    height: 105vh;
-    position: relative;left: 300px;
+    
 }
-.conteudo1 p {
-    color: rgb(60, 23, 23);
-    font-size: 20px;
-    position: relative;left: 550px;bottom: 300px;
+.conteudo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-.conteudo2 img {
-    position: relative; right: 45em;top: 600px;
+.conteudo2 img{
+    height: 200px;
+    width: 350px;
+   
 }
 .conteudo3{
-    position: relative; right: 30em;top: 400px;
-    height: 450px;
-}
-.conteudo3 img {
-    width: 600px;
-    height: 450px;
-}
-.rodape{
-    background-color: black;
-    color: white;
     display: flex;
-    width: 100vw;
-    height: 200px;
-    justify-content:center ;
-    align-items: center;
-
-}
-.maerodape{
-    display: flex;
-    justify-content: bottom;
+    justify-content: center;
+    position: relative;top: 150px;
 }
